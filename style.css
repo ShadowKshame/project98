@@ -29,3 +29,16 @@ img
     height:350px;
     margin:20px;
 }
+
+.copy_right_footer
+{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+img:hover
+{
+ border-radius:140px;
+}
