@@ -22,3 +22,10 @@ body
 {
 background-image: linear-gradient(to right top, #33f1db95, #55d925b8, #18c1adb9, #0aaa0ac0, #008094bd);
 }
+
+img
+{
+    width:400px;
+    height:350px;
+    margin:20px;
+}
