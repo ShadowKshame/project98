@@ -23,9 +23,9 @@ body
 background-image: linear-gradient(to right top, #33f1db95, #55d925b8, #18c1adb9, #0aaa0ac0, #008094bd);
 }
 
-img
+.i1
 {
-    width:400px;
+    width: 350px;
     height:350px;
     margin:20px;
 }
@@ -41,4 +41,9 @@ img
 img:hover
 {
  border-radius:140px;
+}
+
+#camera,#camera1,#camera2
+{
+    box-shadow: 0 6px 8px 0 rgba(rgb(43, 0, 255), green, blue, alpha)
 }
