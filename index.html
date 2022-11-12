@@ -9,51 +9,34 @@
 <link href="style.css" rel="stylesheet">
 
 </head>
-
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" ></script>
 <body>
     <div class="container">
     <center>
         <a href="" id="link" download="Have a nice day.png"></a>
-        <h1>Collage web app
+    <h1>Collage web app 
           <img id="logo_img" src="R.jpg" >
         </h1>
         <hr>
         <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
         
         <div class="form-group">
-            <h3>Say "take my collage selfie"</h3>
+            <h3>Say "take my selfie"</h3>
             <label>Your voice output : </label>
-           
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
         </div>
-        <textarea  id="textbox" ></textarea>
         <button class="btn btn-primary" onclick="start()">Start</button>
         <p>Press the Start button</p>
        
         <label>Your webcam : </label>
-         <div id="camera">
-           
-         </div>
+         <div id="camera"></div>
         <br>
-        <div id="camera1">
-           
-         </div>
-        <br>
-        <div id="camera2">
-          
-         </div>
-        <br>
-        <div id="camera3">
-           
-         </div>
-        <br>
-       
+
+        <label>Your selife Will Display Here: </label>
+         <div id="result"></div>
     </center>
-    <div class="copy_right_footer">
-        developed by - Mauro
     </div>
-    </div>
-    
+
     <script src="main.js"></script>
 </body>
 </html>
-
